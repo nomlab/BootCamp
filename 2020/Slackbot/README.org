@@ -50,12 +50,6 @@
    + 利用するWebHookがどのようなリクエストをPOSTするかを確認し，リクエスト例を用意する．
    + リクエストのContent-TypeがJSONではない場合，post_test.rbに機能を追加し，JSON以外のContent-Typeを送れるように工夫する．
 
-** Details
-   + 課題の概要はnompediaの新人研修課題に記載する．
-     https://github.com/nomlab/nompedia/wiki/Boot-Camp-2017-GN
-   + WebHookの仕組みについては，Web勉強会にて説明する．
-     https://github.com/nomlab/nompedia/wiki/workshop035
-
 ** Tips
    + SlackBotの動作チェックを行うチャンネルは#sandboxが良い．
    + Herokuにアプリケーションをデプロイする際は，ローカルで動作確認してからcommit，pushする．
@@ -77,8 +71,8 @@
     Rubyに関する参考サイトのURLや書籍を以下に示す．
     + (基本) オブジェクト指向スクリプト言語 Ruby リファレンスマニュアル
       [[http://doc.okkez.net/static/187/doc/index.html]]
-    + (初心者向け) Ruby ではじめるプログラミング
-      [[http://jp.rubyist.net/magazine/?0002-FirstProgramming][http://jp.rubyist.net/magazine/?0002-FirstProgramming]]
+    + Ruby入門 ～Rubyの開発環境を用意する手順やRubyを使ったプログラミングの方法について解説します～
+      [[https://www.javadrive.jp/ruby/][https://www.javadrive.jp/ruby/]]
     + (少し深く理解する) プログラミング言語Ruby -ありえるえりあ-
       [[http://dev.ariel-networks.com/articles/workshop/ruby/][http://dev.ariel-networks.com/articles/workshop/ruby/]]
     + (書籍) たのしいRuby 第2版
